@@ -1,0 +1,43 @@
+import uos # NEEDED
+
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('Would you like to install LibreOS?\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('\n')
+print('Type N if you do not want it to install.')
+print('Type Y if you do want it to install.')
+
+if x == 'n' or x == 'N':
+    pass
+elif x == 'y' or x == 'Y':
+    uos.mkdir("images")
+    uos.mkdir("programs")
+    getprogramslist("http://lc.therealm18studios.com/libreos/programs/list.py")
+    getoslist("http://lc.therealm18studios.com/libreos/list.py")
+    getimageslist("http://lc.therealm18studios.com/libreos/images/list.py")
+    pass
